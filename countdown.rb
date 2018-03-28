@@ -9,6 +9,9 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number)
-  number(sleep(1)))
+  while number != 0 
+    puts "pause"
+      number -= 1
+      number(sleep(1))
 
 end
